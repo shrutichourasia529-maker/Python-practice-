@@ -1,0 +1,29 @@
+#ATM system
+ac=input(" Enter account number= ")
+if ac=='12345':
+    print("     Welcome to SBI bank atm")
+
+print (" " " (1)check balance\n(2)Deposit\n(3)Withdraw\n(4)exit." " ")
+a= int(input("enter your interest"))
+match a:
+    case 1:
+        bal=10000
+        print("Total Balance in your account is ",bal)
+    case 2:
+        dp=int(input("Enter the amount of deposit: "))
+        bal=10000
+        cr=dp+bal
+        print("current amount: ",cr)
+        print("Amount succesfully deposit")
+    case 3:
+            wd=int(input("Enter the amount to withdraw: "))
+            bal=10000
+            cr=wd-bal
+            print("current amount: ",cr)
+            print ("Amount succesfully withdraw")
+    case 4:
+                print("You click EXIT,Thank you for using ATM")
+ else :
+    print("Account number not existd")
+              
+            
