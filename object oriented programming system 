@@ -1,0 +1,28 @@
+BASIC OOPS PROGRAM 
+
+class Student:
+    def __init__(self, name, m1, m2, m3):
+        self.name = name
+        self.m1 = m1
+        self.m2 = m2
+        self.m3 = m3
+
+    def average(self):
+        return (self.m1 + self.m2 + self.m3) /3
+
+
+s1 = Student("Shruti", 98, 89, 90)
+print(s1.name)
+print(s1.m1)
+print(s1.m2)
+print(s1.m3)
+print("Average:", s1.average())
+
+print()
+
+s2 = Student("Isha", 90, 99, 89)
+print(s2.name)
+print(s2.m1)
+print(s2.m2)
+print(s2.m3)
+print("Average:", s2.average())
