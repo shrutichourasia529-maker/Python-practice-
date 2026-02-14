@@ -1,0 +1,20 @@
+class student:
+     def __init__ (self,stud_id,name,per):
+          self.stud_id=stud_id
+          self.name=name
+          self.per=per
+     def dis_details(self):
+          print("Student id:",self.stud_id)
+          print("Name:",self.name)
+          print("percentage:",self.per,"%")
+     
+     def pass_stu(self):
+          if self.per >= 40:
+               print ("Student pass")
+          else:
+               print("Student fail")      
+                
+               
+s1=student(1,"Shruti chourasia",89)      
+s1.dis_details()
+s1.pass_stu()
